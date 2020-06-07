@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "D:\\Bharat - Cisco DCN\\Bharat\\Web\\first\\python.exe",
+    "python.autoComplete.extraPaths": [
+        "D:\\Bharat - Cisco DCN\\Bharat\\Web\\first\\Lib\\site-packages\\django",
+        "D:\\Bharat - Cisco DCN\\Bharat\\Web\\first\\Lib\\site-packages\\psycopg2"
+    ]
+}
