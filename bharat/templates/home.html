@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<html>
+    <h1>111111{{ name }}111111</h1>
+    <form action="add" method="POST">
+        {% csrf_token %}
+        First Number: <input type="number" name="num1"/>
+        Second Number: <input type="number" name="num2"/>
+        <input type="submit"/>
+    </form>
+    <h2>Ans is: {{ ans }}</h2>
+</html>
+{% endblock %}
